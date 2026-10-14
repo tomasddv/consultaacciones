@@ -1,23 +1,22 @@
 {
   "source_actions": "C:\\Users\\triesgo\\Downloads\\acciones octubre.xlsx",
   "source_clients": "C:\\Users\\triesgo\\Downloads\\REPORTE CLIENTES.xlsx",
-  "source_groups": "C:\\Users\\triesgo\\Documents\\Codex\\2026-08-06\\https-distribuidoradelvalle-chesserp-com-ar889-ventas\\work\\erp_groups_full_2026-10-13-all-actions.json",
+  "source_groups": "C:\\Users\\triesgo\\Documents\\Codex\\2026-08-06\\https-distribuidoradelvalle-chesserp-com-ar889-ventas\\work\\erp_groups_full_2026-10-14-all-actions.json",
   "actions_total": 58,
   "actions_confirmed": 45,
   "actions_excluded": 13,
   "actions_pending": 0,
-  "clients_with_discounts": 1962,
-  "rows": 21014,
-  "erp_actions_observed": 142,
-  "erp_actions_added_since_previous": [],
-  "erp_actions_removed_since_previous": [
+  "clients_with_discounts": 1963,
+  "rows": 21025,
+  "erp_actions_observed": 147,
+  "erp_actions_added_since_previous": [
     "3047",
     "3048",
     "3318",
     "3319",
-    "3499",
     "3500"
   ],
+  "erp_actions_removed_since_previous": [],
   "new_actions_excluded_pending_scope_confirmation": [
     "3553",
     "3554",
