@@ -3,21 +3,18 @@
   "source_clients": "C:\\Users\\triesgo\\Downloads\\REPORTE CLIENTES.xlsx",
   "source_groups": "C:\\Users\\triesgo\\Documents\\Codex\\2026-08-06\\https-distribuidoradelvalle-chesserp-com-ar889-ventas\\work\\erp_groups_full_2026-10-22-all-actions.json",
   "actions_total": 58,
-  "actions_confirmed": 44,
-  "actions_excluded": 14,
+  "actions_confirmed": 46,
+  "actions_excluded": 12,
   "actions_pending": 0,
   "clients_with_discounts": 1967,
-  "rows": 19398,
-  "erp_actions_observed": 151,
+  "rows": 21069,
+  "erp_actions_observed": 154,
   "erp_actions_added_since_previous": [
-    "3564",
-    "3565",
-    "3566"
+    "3531",
+    "3567",
+    "3568"
   ],
-  "erp_actions_removed_since_previous": [
-    "3474",
-    "3531"
-  ],
+  "erp_actions_removed_since_previous": [],
   "new_actions_excluded_pending_scope_confirmation": [
     "3553",
     "3555",
@@ -29,6 +26,7 @@
     "3561",
     "3564",
     "3565",
-    "3566"
+    "3566",
+    "3568"
   ]
 }
