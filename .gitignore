@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 venv/
 .env
+data/november_groups_capture.json
+data/reporte_clientes_drive_*.xlsx

@@ -62,7 +62,7 @@ st.markdown(
 df, meta = load_data()
 st.markdown('<div class="eyebrow">Distribuidora del Valle</div>', unsafe_allow_html=True)
 st.title("Consulta de descuentos")
-st.markdown('<div class="subtle">Octubre 2026 · buscá por código o nombre de fantasía</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtle">Noviembre 2026 · buscá por código o nombre de fantasía</div>', unsafe_allow_html=True)
 
 query = st.text_input("Cliente", placeholder="Ejemplo: 4020 o Gardelitos", label_visibility="collapsed")
 matches = pd.DataFrame()
@@ -121,7 +121,7 @@ else:
                     <div class="discount-card">
                       <div class="family">{row['familia']}</div>
                       <div class="pct">{row['porcentaje_maximo']:.2f}%</div>
-                      <div class="threshold">Máximo desde {int(row['desde_bultos'])} bulto{'s' if int(row['desde_bultos']) != 1 else ''}</div>
+                      <div class="threshold">Máximo desde {float(row['desde_bultos']):g} bulto{'s' if float(row['desde_bultos']) != 1 else ''}</div>
                       {warning}
                     </div>
                     """,
@@ -140,7 +140,7 @@ with st.sidebar:
     st.subheader("Estado del relevamiento")
     st.metric("Acciones del Excel", meta["actions_total"])
     st.metric("Acciones confirmadas", meta["actions_confirmed"])
-    st.metric("Excluidas por no vigencia", meta["actions_excluded"])
+    st.metric("Excluidas por regla incompleta", meta["actions_excluded"])
     st.metric("Pendientes", meta["actions_pending"])
-    st.caption("Prototipo local. No modifica Drive, GitHub ni el dashboard vigente.")
+    st.caption("Datos auditados contra acciones vigentes y programadas de Chess ERP.")
 

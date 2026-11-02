@@ -13,5 +13,5 @@ streamlit run app.py
 
 ## Fuente
 
-El snapshot incluido fue auditado contra las acciones vigentes y programadas de Chess ERP para octubre de 2026.
+El snapshot incluido fue auditado contra las acciones vigentes y programadas de Chess ERP para noviembre de 2026.
 
